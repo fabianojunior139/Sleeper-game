@@ -224,7 +224,7 @@ footer p {
     }
 
     .start-game {
-        padding: 1rem;
+        padding: 0 1rem;
     }
 
     .game {
@@ -245,7 +245,7 @@ footer p {
 
     .target-name {
         font-weight: 400;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .buttons {
@@ -253,8 +253,8 @@ footer p {
     }
 
     .target-button {
-        width: 3.5rem;
-        height: 3.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .form-input {
@@ -266,7 +266,7 @@ footer p {
     }
 
     .colors {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
 
     footer {
@@ -283,5 +283,10 @@ footer p {
     .target-button {
         width: 5rem;
         height: 5rem;
+    }
+
+    .target-name {
+        font-weight: 400;
+        font-size: 2.5rem;
     }
 }
