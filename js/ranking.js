@@ -25,7 +25,7 @@ if (rankingData) {
     //crio uma coluna que terá a pontuação do player
     const scoreCell = document.createElement("td");
     //falo que o valor é o score do usuário cadastrado no ranking
-    scoreCell.textContent = player.pontuacao;
+    scoreCell.textContent = player.score;
     //incluo como filho da linha a coluna de pontuação
     row.appendChild(scoreCell);
 
