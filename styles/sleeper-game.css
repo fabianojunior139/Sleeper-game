@@ -212,3 +212,72 @@ footer p {
     background-color: var(--color-light-gray);
     padding: 0.125rem;
 }
+
+/* Adicionando estilos para responsividade */
+@media (max-width: 1152px) {
+    .name-logo img {
+        margin-right: 0.5rem;
+    }
+
+    .name-logo p {
+        font-size: 1rem;
+    }
+
+    .start-game {
+        padding: 1rem;
+    }
+
+    .game {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goal {
+        width: 100%;
+        height: auto;
+        padding: 0rem;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+
+    .target-name {
+        font-weight: 400;
+        font-size: 2.5rem;
+    }
+
+    .buttons {
+        grid-gap: 1rem;
+    }
+
+    .target-button {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    .ranking-button {
+        width: 100%;
+    }
+
+    .colors {
+        margin-top: 1rem;
+    }
+}
+
+/* Adicionando estilos para quando o dispositivo tiver tela maior que 667px */
+@media (min-height: 668px) {
+    .colors {
+        margin-top: 2rem;
+    }
+
+    .target-button {
+        width: 5rem;
+        height: 5rem;
+    }
+}

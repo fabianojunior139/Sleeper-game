@@ -85,3 +85,44 @@ body {
     background-size: cover;
     overflow: hidden;
 }
+
+/* Adicionando parte responsiva para funcionar um aplicativos mobile */
+@media (max-width: 1152px) {
+    .card {
+        flex-direction: column-reverse;
+        width: auto;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 1rem;
+        overflow: hidden;
+    }
+
+    .left-container {
+        height: 50%;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    .right-container {
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-button {
+        margin-right: 0.25rem;
+    }
+
+    .card-title {
+        margin: 0rem 0 0.75rem 0;
+    }
+
+    .js-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
