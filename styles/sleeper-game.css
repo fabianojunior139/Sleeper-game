@@ -268,6 +268,10 @@ footer p {
     .colors {
         margin-top: 1rem;
     }
+
+    footer {
+        display: none;
+    }
 }
 
 /* Adicionando estilos para quando o dispositivo tiver tela maior que 667px */
