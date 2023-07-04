@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+/* Variáveis de cores e fonts para a aplicação */
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-light-gray: #5f6368;
+    --color-gray: #303134;
+    --color-dark-gray: #202124;
+    --color-yellow: #f0db4f;
+
+    --font-montserrat: "Montserrat", sans-serif;
+}
+
+
+/* Fazendo um breve reset das configurações padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-montserrat);
+    color: var(--color-white);
+}

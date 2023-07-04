@@ -1,0 +1,95 @@
+@import "base.css";
+
+body {
+    background-color: var(--color-dark-gray);
+}
+
+.container-fluid {
+    margin-top: 5rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando o header da página */
+.header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.header p {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item {
+    padding: 0.25rem 0.5rem;
+    list-style: none;
+    background-color: var(--color-yellow);
+    margin-right: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: var(--color-dark-gray);
+    font-weight: 500;
+}
+
+.title {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#ranking-table th {
+    background-color: var(--color-gray);
+    border: 1px solid var(--color-light-gray);
+    padding: 8px;
+    text-align: left;
+}
+
+#ranking-table td {
+    border: 1px solid var(--color-light-gray);
+    padding: 8px;
+}
+
+.divisor {
+    border-color: var(--color-light-gray);
+}

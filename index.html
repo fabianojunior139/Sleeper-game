@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/logo-javascript.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/card.css">
     <title>Sleeper Game</title>
 </head>
 
 <body>
-    <h1>Teste</h1>
+    <main class="container">
+        <div class="card">
+            <div class="left-container">
+                <h1 class="card-title">Sleeper Game</h1>
+                <p class="card-paragraph">O Sleeper game é muito simples, você deve apenas clicas no botão com a cor
+                    correspondente ao
+                    <span class="accent-color">alvo</span>. O alvo sempre será a <span class="accent-color">cor da
+                        palavra escrita na tela</span>.
+                </p>
+                <p class="card-paragraph"><span class="accent-color">Clique na cor correta</span> antes que o tempo
+                    acabe para receber seu próximo alvo.
+                    Seus pontos são
+                    computados a cada acerto e <span class="accent-color">termina se você demorar muito ou escolher a
+                        cor errada</span>.</p>
+
+                <a href="pages/sleeper-game.html" class="play-button">Jogar</a>
+                <a href="pages/ranking.html" class="ranking-button">Ver ranking</a>
+            </div>
+            <div class="right-container">
+                <img class="js-image" src="/assets/logo-javascript.svg" alt="Imagem da logo do Javascript">
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

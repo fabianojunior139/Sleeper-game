@@ -1,0 +1,46 @@
+Jogo em HTML, CSS e JavaScript
+
+*** Descrição do jogo ao usuário:
+O jogo é muito simples, você deve apenas clicar no botão com a cor correspondente ao alvo.
+O alvo sempre será a COR da palavra escrita na tela.
+Clique na cor correta antes que o tempo acabe para receber seu próximo alvo.
+Seus pontos são computados a cada acerto e termina se você demorar muito ou escolher a cor errada.
+
+*** Objetivo técnico do jogo:
+Alvo = Cor aleatória, que "pinta" a palavra sorteada. São 9 cores randomicamente escolhidas a cada rodada
+Palavra sorteada = Strings com o nome de cores, preferencialmente iguais aos dos alvos
+Tempo = Formato de contagem regressiva, varia conforme o nível da partida (regras na "mecânica do jogo")
+Botões = São 9 botões, com as possíveis cores dos alvos. Os botões devem ser embaralhados a cada nova partida ou dependendo do nível da atual rodada
+Jogada certa = Jogador clicou no botão correspondente ao alvo. Soma-se 1 ponto e inicia nova rodada
+Jogada errada = Jogador não clicou entes do tempo zerar, ou então, clicou em um botão não correspondente ao alvo. Fim de jogo!
+
+
+*** Layout do jogo (imagens de exemplo):
+O jogador deverá visualizar uma tela indicando o atual nível do jogo, o tempo regressivo, um botão para início/reinício da partida e os componentes principais do jogo (alvo e botões)
+Ao fim a partida, o jogador verá sua pontuação total.
+
+*** Mecânica do jogo:
+A cada 10 pontos a partida sobe um nível.
+Os níveis implicam em mudanças na dinâmica da partida. São elas:
+** Nível 1
+Tempo para acertar o alvo é de 3 segundos
+** Nível 2
+Tempo para acertar o alvo é de 2 segundos
+** Nível 3
+Tempo para acertar o alvo é de 2 segundos e os botões devem ser embaralhados a cada rodada
+** Nível 4
+Tempo para acertar o alvo é de 1.7 segundos e os botões devem ser embaralhados a cada rodada
+** Nível 5
+Tempo para acertar o alvo é de 1.5 segundos e os botões devem ser embaralhados a cada rodada
+** Nível 6
+Tempo para acertar o alvo é de 1 segundo e os botões devem ser embaralhados a cada rodada
+
+
+*** Sobre a avaliação
+Será considerado o desafio como concluído desde que esteja "jogável" com as determinações acima, contudo, terá maior peso avaliativo a manipulação e interação do JS com o HTML e CSS. Ou seja, escolha das soluções para o proposto.
+O layout e a escolha dos elementos para compor as telas do jogo são livres, as imagens anexadas ao desafio são apenas para exemplo.
+Será considerada toda e qualquer contribuição para a mecânica do jogo (comente seu código).
+
+*** Bônus
+Ao finalizar a partida, o jogador poderá incluir seu nome e sua pontuação em um ranking (Webserver desenvolvido no backend ou utilizando o "localStorage" do navegador).
+Antes de entrar na partida, o ranking com os 10 maiores pontuadores do jogo poderá ser consultado.

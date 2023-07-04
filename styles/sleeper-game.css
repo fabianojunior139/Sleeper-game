@@ -1,0 +1,214 @@
+@import "base.css";
+
+body {
+    background-color: var(--color-dark-gray);
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Estilizando o header da página */
+.header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.header p {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-item {
+    padding: 0.25rem 0.5rem;
+    list-style: none;
+    background-color: var(--color-yellow);
+    margin-right: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: var(--color-dark-gray);
+    font-weight: 500;
+}
+
+/* Estilizando a parte principal da página */
+.level {
+    color: var(--color-yellow);
+    margin: 0;
+}
+
+.stopwatch {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.start-game {
+    height: 8rem;
+    padding: 2rem;
+    background-color: var(--color-gray);
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-container {
+    width: 50%;
+}
+
+.button-start {
+    width: 100%;
+    background-color: var(--color-yellow);
+    color: var(--color-dark-gray);
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0;
+    font-weight: 500;
+}
+
+/* Estilizando a parte do jogo */
+.game {
+    margin-top: 1rem;
+    height: calc(100vh - 20rem);
+    background-color: var(--color-gray);
+    border-radius: 0.25rem;
+    display: flex;
+    padding: 1rem;
+}
+
+.goal {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.description {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.target-name {
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.ranking-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.form-input {
+    background-color: var(--color-light-gray);
+    border: none;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    width: 60%;
+    border-radius: 0.25rem;
+    padding: 0.25rem;
+}
+
+.form-input:focus {
+    outline-color: var(--color-yellow);
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.ranking-button {
+    text-decoration: none;
+    color: var(--color-dark-gray);
+    background-color: var(--color-yellow);
+    font-weight: 500;
+    padding: 0.25rem;
+    width: 60%;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: none;
+    transition: all 0.5s;
+}
+
+.ranking-button:hover {
+    opacity: 0.9;
+}
+
+.colors {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.target-button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+/* Estilizando o footer da página */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.divisor {
+    border-color: var(--color-light-gray);
+}
+
+.hidden {
+    display: none;
+}
+
+.accent-color {
+    background-color: var(--color-light-gray);
+    padding: 0.125rem;
+}
