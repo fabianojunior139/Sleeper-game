@@ -6,7 +6,7 @@
 https://sleeper-game.vercel.app/
 
 ## :heavy_check_mark: Features
-- [x] Modo responsivo funcionando
+- [x] Modo responsivo
 
 ## ⚡ Tecnologias
 <div align="center"> 
@@ -16,4 +16,4 @@ https://sleeper-game.vercel.app/
 </div> 
 
 ## ⚙ Regras do Jogo
-As Regras do jogo e telas que embasaram o desenvolvimento deste jogo, podem ser encontrados na pasta 'enunciado-exercício' na raiz deste repositório
+As regras e telas que embasaram o desenvolvimento deste jogo, podem ser encontrados na pasta 'enunciado-exercício' na raiz deste repositório.
