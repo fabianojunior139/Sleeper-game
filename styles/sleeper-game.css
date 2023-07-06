@@ -121,8 +121,7 @@ body {
 }
 
 .target-name {
-    font-weight: 300;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .ranking-form {
@@ -214,7 +213,7 @@ footer p {
 }
 
 /* Adicionando estilos para responsividade */
-@media (max-width: 1152px) {
+@media (max-width: 992px) {
     .name-logo img {
         margin-right: 0.5rem;
     }
@@ -244,7 +243,6 @@ footer p {
     }
 
     .target-name {
-        font-weight: 400;
         font-size: 2rem;
     }
 
@@ -270,23 +268,34 @@ footer p {
     }
 
     footer {
-        display: none;
+        position: static;
     }
 }
 
 /* Adicionando estilos para quando o dispositivo tiver tela maior que 667px */
-@media (min-height: 668px) {
+@media screen and (max-height: 719px) and (max-width: 400px) {
     .colors {
-        margin-top: 2rem;
+        margin-top: 1rem;
+    }
+
+    .target-button {
+        margin: 0;
+        width: 3.25rem;
+        height: 3.25rem;
+    }
+
+    .target-name {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-height: 720px) and (max-height: 900px) {
+    .colors {
+        margin-top: 1.5rem;
     }
 
     .target-button {
         width: 5rem;
         height: 5rem;
-    }
-
-    .target-name {
-        font-weight: 400;
-        font-size: 2.5rem;
     }
 }

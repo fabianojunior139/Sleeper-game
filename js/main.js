@@ -112,15 +112,15 @@ function verifyLevel() {
 //Função para sortear as cores e retornar um array com as mesmas
 function raffleColors() {
   const colors = [
-    "green",
-    "yellow",
-    "pink",
-    "brown",
-    "blue",
-    "orange",
-    "gray",
-    "red",
-    "black",
+    "rgb(0, 0, 0)",
+    "rgb(255, 255, 255)",
+    "rgb(0, 209, 0)",
+    "rgb(245, 23, 32)",
+    "rgb(0, 0, 255)",
+    "rgb(255, 255, 0)",
+    "rgb(255, 105, 180)",
+    "rgb(253, 127, 32)",
+    "rgb(101, 0, 176)",
   ];
 
   //Array que vai comportar as cores que forem sorteadas futuramente
@@ -140,7 +140,6 @@ function raffleColors() {
       drawnColors.push(color);
     }
   }
-
   //Retorno o array de cores aleatórias para quem chamar a função.
   return drawnColors;
 }
@@ -148,15 +147,15 @@ function raffleColors() {
 //Sorteio dos nomes das cores e sua cor
 function raffleTargetName() {
   const colorsName = [
-    "VERDE",
-    "AMARELO",
-    "ROSA",
-    "MARROM",
-    "AZUL",
-    "LARANJA",
-    "CINZA",
-    "VERMELHO",
     "PRETO",
+    "BRANCO",
+    "VERDE",
+    "VERMELHO",
+    "AZUL",
+    "AMARELO",
+    "LARANJA",
+    "ROSA",
+    "ROXO",
   ];
 
   //Seleciona um número aleatório entre 0 e 8
