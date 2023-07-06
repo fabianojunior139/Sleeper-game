@@ -296,12 +296,12 @@ footer p {
     }
 
     .target-button {
-        width: 5rem;
-        height: 5rem;
+        width: 4.75rem;
+        height: 4.75rem;
     }
 
     .target-name {
-        font-size: 3rem;
+        font-size: 2.75rem;
         font-weight: 500;
     }
 }
