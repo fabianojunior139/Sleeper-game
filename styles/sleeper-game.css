@@ -275,7 +275,7 @@ footer p {
 /* Adicionando estilos para quando o dispositivo tiver tela maior que 667px */
 @media screen and (max-height: 719px) and (max-width: 400px) {
     .colors {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
 
     .target-button {
