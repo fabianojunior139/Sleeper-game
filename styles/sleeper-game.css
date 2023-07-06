@@ -298,4 +298,8 @@ footer p {
         width: 5rem;
         height: 5rem;
     }
+
+    .target-name {
+        font-size: 3rem;
+    }
 }
