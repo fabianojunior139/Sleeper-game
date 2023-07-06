@@ -273,7 +273,7 @@ footer p {
 }
 
 /* Adicionando estilos para quando o dispositivo tiver tela maior que 667px */
-@media screen and (min-height: 600px) and (max-width: 380px) {
+@media screen and (min-height: 500px) and (max-width: 380px) {
     .colors {
         margin-top: 0.5rem;
     }
