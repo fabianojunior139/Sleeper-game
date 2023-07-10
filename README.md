@@ -1,5 +1,5 @@
  <h1 align="center">Sleeper Game 🎮</h1>
- <p>Este é um joguinho criado utilizando HTML, CSS e JavaScript. Resolvendo um exercício proposto durante a 5° Academia Java ofericida pela Atos</p>
+ <p>Este é um joguinho criado utilizando HTML, CSS e JavaScript. Resolvendo um exercício proposto durante a 5° Academia Java ofericida pela Atos. Este projeto teve como propósito refinar o conhecimento em JavaScript Vanilla</p>
  <p>O objetivo desse jogo é clicar no botão correspondente a cor da palavra que for gerada na aplicação</p>
 
 ## 🖥 Jogue agora mesmo
